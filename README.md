@@ -2,6 +2,7 @@
 Export images out of Leaflet maps without a server component, by using Canvas and CORS.
 
 # usage
+```js
 leafletImage(map, config, function(err, canvas) {
     // now you have canvas
     // example thing to do with that canvas:
@@ -13,6 +14,7 @@ leafletImage(map, config, function(err, canvas) {
     document.getElementById('images').innerHTML = '';
     document.getElementById('images').appendChild(img);
 });
+```
 
 # config 
 ## custom_canvas_property
